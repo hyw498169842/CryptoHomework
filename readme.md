@@ -51,6 +51,6 @@ make clean
 ## 其他 make 选项
 ``` makefile
 make encrypt # make && ./SHA-3-256 plaintext, 散列 plaintext 文件
-make check-en: # make encrypt && cmp encrypted hashtext, 检查散列正确性
+make check-en # make encrypt && cmp encrypted hashtext, 检查散列正确性
 make clean
 ```
